@@ -1,0 +1,18 @@
+<div class="container">
+<div class="row card-group">
+      <div *ngFor="let sh of shops" class="col-3">
+      <div class="card spacer" style="st" align="center">
+      <div class="card-header">
+        <p class="card-text">Shop <strong>{{sh.name}}</strong></p>
+      </div>
+      <div class="card-body spacer">
+         <img class="itemImage" src="{{sh.picture}}" />
+      </div>
+     <p class="spacer">
+    <button  class="btn btn-danger" (click)="dislikeButton(sh._id)">Dislike</button>
+    <button  class="btn btn-success" (click)="likeButton(sh._id)">Like</button>
+      </p>
+      </div>
+      </div>
+     </div>
+</div>
