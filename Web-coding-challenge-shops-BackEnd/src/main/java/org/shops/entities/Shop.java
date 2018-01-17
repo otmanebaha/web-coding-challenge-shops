@@ -13,7 +13,7 @@ public class Shop {
 	private String name;
 	private String email;
 	private String city;
-	//liked means the state of the shop either "LIKE" or "DISLIKE" or "NoLIKENoDISLIKE"
+	//liked means the state of the shop either "LIKE=1" or "DISLIKE=-1" or "NoLIKENoDISLIKE=0"
 	private int liked=NoLIKENoDISLIKE;
 	//The time that the shop won't be displayed
 	private Long timeOfDislike;	
