@@ -1,0 +1,23 @@
+<div class="container spacer">
+  <h1>Create Your Account</h1><br>
+  <div class="container">
+    <div class="form-group row">
+      <label class="col-sm-2 col-form-label">Email</label>
+      <div class="col-sm-5">
+        <input type="text" class="form-control" placeholder="Email" [(ngModel)]="account.email" email required/>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-2 col-form-label">Password</label>
+      <div class="col-sm-5">
+        <input type="password" class="form-control" placeholder="Password" [(ngModel)]="account.password" required/>
+      </div>
+    </div>
+    <div class="form-group row">
+      <div class="offset-sm-2 col-sm-10">
+        <button type="submit" class="btn btn-primary clickable" (click)="saveAccount()">Sign up</button>
+         <button type="submit" class="btn btn-primary clickable" routerLink='/SignIn'>Return</button>
+      </div>
+    </div>
+  </div>
+</div>
