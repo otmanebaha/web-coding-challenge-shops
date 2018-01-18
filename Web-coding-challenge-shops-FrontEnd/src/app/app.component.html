@@ -1,6 +1,5 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<script type="text/javascript">
-</script>
+<div *ngIf="nav.visible">
 <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -11,11 +10,13 @@
         <a class="nav-link" routerLink="/NearbyShops"><strong>Nearby Shops</strong><span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/MyPreferredShops"><strong>My preferred Shops</strong></a> 
+        <a class="nav-link" routerLink="/MyPreferredShops"><strong>My preferred Shops</strong></a>
       </li>
     </ul>
+      <button class="btn btn-outline-primary my-2 my-sm-0 clickable" type="submit" routerLink="/SignIn">Log out</button>
   </div>
 </nav>
+</div>
 <p></p>
 <router-outlet></router-outlet>
 

@@ -5,3 +5,9 @@
 .st{
 	width: 15rem;
 }
+.space{
+  margin-right: 10px;
+}
+.clickable{
+  cursor: pointer;
+}

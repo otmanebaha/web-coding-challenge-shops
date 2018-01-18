@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {ShopService} from "../../service/shop.service";
 import {Http} from "@angular/http";
 import {Router} from "@angular/router";
+import {NavbarService} from "../../service/navbar.service";
 
 @Component({
   selector: 'app-my-preferred-shops',
@@ -12,12 +13,15 @@ export class MyPreferredShopsComponent implements OnInit {
 
   shops:any;
 
-  constructor(public http:Http,public shopService:ShopService,public router:Router) {
+  constructor(public http:Http,
+              public shopService:ShopService,
+              public router:Router,
+              public nav:NavbarService) {
     this.getAllShops();
   }
 
   ngOnInit() {
-
+  this.nav.show();
   }
 
   getAllShops(){
