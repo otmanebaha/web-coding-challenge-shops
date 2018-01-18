@@ -10,8 +10,7 @@ Features :
 - As a User, you can sign up using your email & password
 - As a User, you can sign in using your email & password
 - As a User, you can display the list of shops sorted by distance
-- As a User, you can like a shop, so it can be added to your preferred shops
-		Acceptance criteria: liked shops shouldn’t be displayed on the main page
+- As a User, you can like a shop, so it can be added to your preferred shops (Acceptance criteria: liked shops shouldn’t be displayed on the main page)
 - As a User, you can dislike a shop, so it won’t be displayed within “Nearby Shops” list during the next 2 hours
 - As a User, you can display the list of preferred shops
 - As a User, you can remove a shop from your preferred shops list
