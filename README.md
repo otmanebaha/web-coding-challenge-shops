@@ -2,8 +2,8 @@
 
 This project aims to implement an app that lists shops nearby.
 
-It has two parts:
-Backend part implemented with spring boot and mongoDB for databases,
+It has two parts :
+- Backend part implemented with spring boot and mongoDB for databases,
 and Frontend part iplemented with angular 4.
 
 Features :
@@ -17,7 +17,7 @@ Features :
 - As a User, I can remove a shop from my preferred shops list
 
 Specifications :
-To use this project you need to import the backend part on your editor in this case "Eclipse",
+- To use this project you need to import the backend part on your editor in this case "Eclipse",
 And for the frontend you need to install the node_modules with this command : "npm install".
-For the database, you can download it on this link :
-[a link](https://github.com/hiddenfounders/web-coding-challenge/blob/master/dump-shops.zip)
+- For the database, you can download it on this link :
+[here](https://github.com/hiddenfounders/web-coding-challenge/blob/master/dump-shops.zip)
